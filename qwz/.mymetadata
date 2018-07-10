@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="qwz"
+  id="myeclipse.1402455064109"
+  context-root="/qwz"
+  j2ee-spec="5.0"
+  archive="qwz.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

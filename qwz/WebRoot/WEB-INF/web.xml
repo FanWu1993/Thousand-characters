@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Hello</servlet-name>
+    <servlet-class>com.Hello</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VerifyCode</servlet-name>
+    <servlet-class>com.VerifyCode</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Check</servlet-name>
+    <servlet-class>com.Check</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addBook</servlet-name>
+    <servlet-class>com.addBook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>removeBooks</servlet-name>
+    <servlet-class>com.removeBooks</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addMessage</servlet-name>
+    <servlet-class>com.addMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delMessage</servlet-name>
+    <servlet-class>com.delMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HelloWorld</servlet-name>
+    <servlet-class>com.HelloWorld</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Hello</servlet-name>
+    <url-pattern>/servlet/Hello</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerifyCode</servlet-name>
+    <url-pattern>/servlet/VerifyCode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Check</servlet-name>
+    <url-pattern>/servlet/Check</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addBook</servlet-name>
+    <url-pattern>/servlet/addBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>removeBooks</servlet-name>
+    <url-pattern>/servlet/removeBooks</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addMessage</servlet-name>
+    <url-pattern>/servlet/addMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delMessage</servlet-name>
+    <url-pattern>/servlet/delMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HelloWorld</servlet-name>
+    <url-pattern>/servlet/HelloWorld</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
